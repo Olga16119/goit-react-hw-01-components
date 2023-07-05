@@ -7,9 +7,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+background-color: aliceblue;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul,li,h1,h2,
+img,
+p {
+  margin: 0 0;
+  padding: 0 0;
+  list-style: none;
+}
+
