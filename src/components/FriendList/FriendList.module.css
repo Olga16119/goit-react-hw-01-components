@@ -18,10 +18,22 @@ box-shadow:0px 22px 50px  rgba(0, 0, 0, 0.5)
     width: 100px;
 
 }
-.status {
-    color: darkcyan;
-    font-size: 14px;
-    margin-bottom: 5px;
+.status{
+     width: 13px;
+  height: 13px;
+  border-radius: 50%; 
+}
+.statusOnline {
+   width: 13px;
+  height: 13px;
+  border-radius: 50%; 
+  background-color: green
+}
+.statusOfline {
+   width: 13px;
+  height: 13px;
+  border-radius: 50%; 
+  background-color: red
 }
 
 .avatar {
@@ -36,8 +48,3 @@ box-shadow:0px 22px 50px  rgba(0, 0, 0, 0.5)
     font-size: 16px;
 }
 
-
-
-  /* border-radius: 50px;
-  
-} */
